@@ -1,5 +1,6 @@
 import React from 'react';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import './Profile.css'
 
 
 export default function Profile() {
@@ -9,21 +10,23 @@ export default function Profile() {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
-                        <a href='#'>
-                            <i className='fa fa-facebook-square'></i>
-                        </a>
-                        <a href='#'>
-                            <i className='fa fa-google-plus-square'></i>
-                        </a>
-                        <a target="_blank" href='https://www.instagram.com/raju_ehcker/'>
-                            <i className='fa fa-instagram'></i>
-                        </a>
-                        <a href='#'>
-                            <i className='fa fa-youtube-square'></i>
-                        </a>
-                        <a target="_blank" href='https://twitter.com/raju_ehcker'>
-                            <i className='fa fa-twitter'></i>
-                        </a>
+                        <div className='colz-icon'>
+                            <a href='#'>
+                                <i className='fa fa-facebook-square'></i>
+                            </a>
+                            <a href='#'>
+                                <i className='fa fa-google-plus-square'></i>
+                            </a>
+                            <a target="_blank" href='https://www.instagram.com/raju_ehcker/'>
+                                <i className='fa fa-instagram'></i>
+                            </a>
+                            <a href='#'>
+                                <i className='fa fa-youtube-square'></i>
+                            </a>
+                            <a target="_blank" href='https://twitter.com/raju_ehcker'>
+                                <i className='fa fa-twitter'></i>
+                            </a>
+                    </div>
 
                     </div>
 
@@ -74,10 +77,12 @@ export default function Profile() {
                         </a>
 
                     </div>
+                </div>
 
+                <div className='profile-picture'>
+                    <div className='profile-picture-background'>
 
-
-
+                    </div>
 
                 </div>
 
