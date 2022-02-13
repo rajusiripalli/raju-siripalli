@@ -61,6 +61,7 @@ export default function ContactMe(props) {
       }
     } catch (error) {
       console.log(error);
+      console.log("error==> ", error)
       setBool(false);
 
     }
